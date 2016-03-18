@@ -1,0 +1,5 @@
+[DEFAULT]
+include = cat /usr/share/mr/vcsh
+
+[.config/vcsh/repo.d/mr.git]
+checkout = vcsh clone git@github.com:xihh87/mr-castle.git
